@@ -1,0 +1,39 @@
+pwd --->Present working directory
+touch one.txt-->Create a file in particular path
+rm -rf one.txt-->remove a file
+mkdir jeeva.txt--->For create a Directory
+rmdir jeeva.txt-->Remove a Directory
+
+mkdir jeeva--->create a Directory
+cd dir jeeva-->Moven in to a particular directory
+touch one.txt-->Create a file
+
+ls-->Used to see the present files
+cd ..--->Go to main Directory
+
+git clone origin  githubURL---->Push
+======================================
+
+Pull A Code
+===========
+
+git init-->For Create a local repository.
+
+git add .  ----->All files store
+
+git status   --->Check the file status
+
+git config --global user.name repositiryusername.  --->Authentication
+
+git config --global user.email repositioryemail.	  -->Authentication
+
+git commit -m"message".
+
+git remote add origin newremoterepositiory link.
+
+git push -u origin master. 
+
+
+git checkout -b name  ---->New Branch 
+
+git log

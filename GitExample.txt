@@ -1,0 +1,148 @@
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/kutty/eclipse-workspace/jeeva/TestNg/.git/
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git add .
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ ls
+groups.xml  para.xml  pom.xml  seq.xml  src/  target/  test-output/  testng.xml
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git commit -m "update-1"
+[master (root-commit) 4d38c43] update-1
+ 80 files changed, 2002 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 groups.xml
+ create mode 100644 para.xml
+ create mode 100644 pom.xml
+ create mode 100644 seq.xml
+ create mode 100644 src/main/java/com/base/BasePr.java
+ create mode 100644 src/main/java/com/base/Base_Class.java
+ create mode 100644 src/main/java/com/base/CreateAccount_FB.java
+ create mode 100644 src/main/java/com/base/ProjectObject.java
+ create mode 100644 src/main/java/com/base/SearchProduct.java
+ create mode 100644 src/main/java/com/base/SignUp_Page_Object_Model.java
+ create mode 100644 src/test/java/com/LearnSequentialExecution/TestNg/BrowserLaunchTwo.java
+ create mode 100644 src/test/java/com/LearnSequentialExecution/TestNg/LaunchBrowser.java
+ create mode 100644 src/test/java/com/learnAnnotation/NewTest.java
+ create mode 100644 src/test/java/com/learnTestNG/Amazon.java
+ create mode 100644 src/test/java/com/tests/LogIn.java
+ create mode 100644 target/classes/com/base/BasePr.class
+ create mode 100644 target/classes/com/base/Base_Class.class
+ create mode 100644 target/classes/com/base/CreateAccount_FB.class
+ create mode 100644 target/classes/com/base/ProjectObject.class
+ create mode 100644 target/classes/com/base/SearchProduct.class
+ create mode 100644 target/classes/com/base/SignUp_Page_Object_Model.class
+ create mode 100644 target/test-classes/com/LearnSequentialExecution/TestNg/BrowserLaunchTwo.class
+ create mode 100644 target/test-classes/com/LearnSequentialExecution/TestNg/LaunchBrowser.class
+ create mode 100644 target/test-classes/com/learnAnnotation/NewTest.class
+ create mode 100644 target/test-classes/com/learnTestNG/Amazon.class
+ create mode 100644 target/test-classes/com/tests/LogIn.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/Suite/testng-failed.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-com.LearnSequentialExecution.TestNg.BrowserLaunchTwo.xml
+ create mode 100644 test-output/junitreports/TEST-com.LearnSequentialExecution.TestNg.LaunchBrowser.xml
+ create mode 100644 test-output/junitreports/TEST-com.learnAnnotation.NewTest.xml
+ create mode 100644 test-output/junitreports/TEST-com.learnTestNG.Amazon.xml
+ create mode 100644 test-output/junitreports/TEST-com.tests.LogIn.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/Suite/Test.properties
+ create mode 100644 test-output/old/Suite/classes.html
+ create mode 100644 test-output/old/Suite/groups.html
+ create mode 100644 test-output/old/Suite/index.html
+ create mode 100644 test-output/old/Suite/main.html
+ create mode 100644 test-output/old/Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Suite/methods-not-run.html
+ create mode 100644 test-output/old/Suite/methods.html
+ create mode 100644 test-output/old/Suite/reporter-output.html
+ create mode 100644 test-output/old/Suite/testng.xml.html
+ create mode 100644 test-output/old/Suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testng.xml
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git log
+commit 4d38c43fdac25ece80bcfec2fa4f7b89b40085a4 (HEAD -> master)
+Author: 0704Muthu <rmuthukumar0704@gmail.com>
+Date:   Wed Dec 7 16:33:15 2022 +0530
+
+    update-1
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git show ^C
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git remote add origin https://github.com/0704Muthu/0704Muthu.git
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git push origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/0704Muthu/0704Muthu.git/'
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git login
+git: 'login' is not a git command. See 'git --help'.
+
+The most similar command is
+        column
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$ git push origin master
+Enumerating objects: 110, done.
+Counting objects: 100% (110/110), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (90/90), done.
+Writing objects: 100% (110/110), 68.06 KiB | 1.08 MiB/s, done.
+Total 110 (delta 18), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (18/18), done.
+To https://github.com/0704Muthu/0704Muthu.git
+ * [new branch]      master -> master
+
+kutty@Muthukumar MINGW64 ~/eclipse-workspace/jeeva/TestNg (master)
+$
